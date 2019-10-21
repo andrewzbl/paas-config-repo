@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url : jdbc:mysql://localhost:3306/metathought?allowMultiQueries=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username : test
+    password : 123456
+  redis:
+    host : localhost
+    port : 6379
+    pass : Zblredis
+    database: 0
+wechat:
+  mp:
+    appId : wxb63f80e48d39ab19
+    secret : eb3f7f5f423cab28c27dea21a8adc8f3
+    token : metathought198903131212
+    aesKey : wXeZcmEAkw7jjQYl0cJgTijFHGnw2CnQGDqy701r3O6
