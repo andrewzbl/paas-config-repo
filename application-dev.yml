@@ -1,10 +1,6 @@
 spring:
-  aop:
-    proxy-target-class: true
-    auto: true
   datasource:
     druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
       # 初始化时建立物理连接的个数
       initial-size: 30
       # 最小连接池数量
